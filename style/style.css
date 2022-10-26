@@ -1,3 +1,28 @@
-.h1{
+.titolo{
+    text-align: center;
     color: red;
+    font-weight: 800;
+}
+.head{
+   background-color: rgb(225, 191, 40);
+   padding: 20px
+}
+.sot-titolo{
+    color: rgb(195, 95, 8);
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.blu{
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: blue;
+}
+.carimg{
+    margin-top: 50px;
+    height: 600px;
+    width: 600px;
+    margin-left: 360px;
+    
 }
