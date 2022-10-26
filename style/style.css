@@ -20,9 +20,9 @@
     color: blue;
 }
 .carimg{
-    margin-top: 50px;
     height: 600px;
     width: 600px;
     margin-left: 360px;
+    object-fit:scale-down
     
 }
