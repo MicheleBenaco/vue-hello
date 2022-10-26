@@ -3,12 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Vue/title>
+    <title>vue </title>
 </head>
 <body>
-    <script src=""></script>
-   
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <input v-model="message" type="text">
+        <h1 id="">{{ firstMsn }}</h1>
+
+    </div>
+
+    <script>
+      const { createApp } = Vue
+    
+      createApp({
+        data() {
+          return {
+            message: 'Hello Vue!',
+            firstMsn: 'Primo messagio su Vue',
+            
+          }
+        }
+      }).mount('#app')
+    </script>
+    
+   </script>
+
+
+   <h1>LUCA</h1>
 </body>
 </html>
